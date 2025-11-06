@@ -2129,7 +2129,7 @@ elif st.session_state['logged_in'] and st.session_state['role'] == "Patient":
         """, unsafe_allow_html=True)
         
         st.write("### Meet the Developers of ChainLearn Nexus")
-        developers = ["Anindya Maity", "Milan Das", "Subhadeep Ghosh", "Sreedeep Ghosh"]
+        developers = ["Aniket Ghosh", "Anubhob Dey", "Arkadeep Ghosh", "Kallol Dawn", "Shubhojit Nandy"]
         for dev in developers:
             st.markdown(f"""
             <div class='developer-card'>

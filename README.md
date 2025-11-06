@@ -65,12 +65,12 @@ This project is designed to enhance the security of user accounts by requiring a
 
 1.  **Start the Flask backend server**:
     ```bash
-    python server5_mfa.py
+    python server.py
     ```
 
 2.  **Open a new terminal** and start the Streamlit frontend:
     ```bash
-    streamlit run client5_mfa.py
+    streamlit run client.py
     ```
 
 3.  Access the application in your web browser at the provided `http://localhost:8501` address.

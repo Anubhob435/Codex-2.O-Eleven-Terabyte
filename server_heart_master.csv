@@ -1,1 +1,4 @@
-age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal,Outcome
+fbs,slope,ca,trestbps,age,sex,chol,oldpeak,exang,Outcome,thal,cp,thalach,restecg
+1.0,0.0,1.0,118.0,21.0,1.0,1.0,0.0,1.0,1,0.0,0.0,192.0,0.0
+0.0,1.0,3.0,160.0,67.0,1.0,286.0,1.5,1.0,0,2.0,0.0,108.0,0.0
+1.0,0.0,0.0,145.0,63.0,1.0,233.0,2.3,0.0,1,1.0,3.0,150.0,0.0
