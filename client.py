@@ -16,7 +16,7 @@ import qrcode # Added for MFA QR code generation
 # --- FEDERATED LEARNING SERVER CONFIGURATION ---
 # IMPORTANT: Replace "192.168.31.202" with the actual IP address of the PC running your server.py
 # Make sure your server's firewall allows incoming connections on port 5000 (Flask) and 8080/8081/8082 (Flower gRPC).\
-FL_SERVER_URL = "http://10.9.3.238:5000" # Base URL for Flask server
+FL_SERVER_URL = "http://127.0.0.1:5000" # Base URL for Flask server
 
 # Diabetes Model Specific Paths
 CLIENT_DIABETES_DATA_DIR = "client_diabetes_data" # Directory to store client-specific diabetes data
@@ -1682,7 +1682,7 @@ if st.session_state['logged_in'] and st.session_state['role'] == "Doctor":
         """, unsafe_allow_html=True)
         
         st.write("### Meet the Developers of ChainLearn Nexus")
-        developers = ["Anindya Maity", "Milan Das", "Subhadeep Ghosh", "Sreedeep Ghosh"]
+        developers = ["Aniket Ghosh", "Anubhob Dey", "Arkadeep Ghosh", "Kallol Dawn", "Shubhojit Nandy" ]
         for dev in developers:
             st.markdown(f"""
             <div class='developer-card'>
